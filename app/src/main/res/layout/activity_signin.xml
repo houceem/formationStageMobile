@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signinbackground"
+    tools:context=".SigninActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:padding="5sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30sp"
+                android:fontFamily="@font/fontapp"
+                android:text="@string/welcome_in"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="150sp"
+                android:layout_height="145sp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/rose_logo" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:background="@drawable/corner"
+            android:orientation="vertical"
+            android:padding="20sp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55sp"
+                android:drawableEnd="@drawable/ic_mail"
+                android:fontFamily="@font/fontapp"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55sp"
+                android:layout_marginBottom="15sp"
+                android:drawableEnd="@drawable/ic_pass"
+                android:fontFamily="@font/fontapp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10sp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontapp"
+                android:text="@string/remember"
+                android:textColor="@color/colorApp"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:layout_width="180sp"
+                android:layout_height="70sp"
+                android:layout_gravity="center"
+                android:layout_margin="25sp"
+                android:backgroundTint="@color/colorApp"
+                android:fontFamily="@font/fontapp"
+                android:text="sign in"
+                android:textColor="@color/white" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/forgetin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/pass"
+                android:fontFamily="@font/fontapp"
+
+                android:text="Forget Password ? "
+                android:textColor="@color/colorApp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/create"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/pass"
+
+                android:fontFamily="@font/fontapp"
+                android:text="Create account "
+                android:textColor="@color/colorApp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

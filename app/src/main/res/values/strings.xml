@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Formation</string>
+    <string name="welcome">Welcome ! \nPlease sign up here ! </string>
+    <string name="welcome_in"> Welcome ! \nPlease sign in here ! </string>
+    <string name="remember">Remember me ?</string>
+</resources>
