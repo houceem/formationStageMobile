@@ -25,8 +25,8 @@ public class ForgetPassword extends AppCompatActivity {
             return insets;
         });
 
-        forg = forg.findViewById(R.id.forg);
-                forg.setOnClickListener(v -> {
+        forg =findViewById(R.id.forg);
+        forg.setOnClickListener(v -> {
                     startActivity(new Intent(ForgetPassword.this, SigninActivity.class));
                 });
     }

@@ -27,11 +27,13 @@ public class SigninActivity extends AppCompatActivity {
         });
 
        forgetin = findViewById(R.id.forgetin);
+        create = findViewById(R.id.create);
+
         forgetin.setOnClickListener(v -> {
             startActivity(new Intent(SigninActivity.this, ForgetPassword.class));
         });
 
-        create = findViewById(R.id.create);
+
         create.setOnClickListener(v -> {
             startActivity(new Intent(SigninActivity.this, SignupActivity.class));
         });

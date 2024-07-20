@@ -81,8 +81,8 @@
 
 
             <Button
-                android:layout_width="180sp"
-                android:layout_height="70sp"
+                android:layout_width="145sp"
+                android:layout_height="50sp"
                 android:layout_gravity="center"
                 android:layout_margin="25sp"
                 android:backgroundTint="@color/colorApp"
@@ -99,7 +99,6 @@
                 android:id="@+id/forgetin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/pass"
                 android:fontFamily="@font/fontapp"
 
                 android:text="Forget Password ? "
@@ -111,7 +110,6 @@
                 android:id="@+id/create"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableRight="@drawable/pass"
 
                 android:fontFamily="@font/fontapp"
                 android:text="Create account "
